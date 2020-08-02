@@ -1,5 +1,10 @@
+:root {
+    --primary-color: rgb(46, 43, 43);   
+    --secondary-color: rgb(63, 155, 63); 
+}
+
 body {
-    background-color: blueviolet;
+    background-color: var(--primary-color);
 }
 
 .content {
@@ -13,7 +18,7 @@ body {
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-    background-color: blueviolet;
+    background-color: var(--secondary-color);
     color: wheat;
 
     text-align: center;
@@ -38,10 +43,12 @@ h2 {
     height: 35px;
     width: 150px;
 
-    border: 1px solid blueviolet;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    border: 1px solid var(--secondary-color);
     border-radius: 8px;
 
-    background-color: blueviolet;
+    background-color: var(--secondary-color);
     color: wheat;
 
     outline: none;
@@ -51,7 +58,7 @@ h2 {
 }
 
 .button:hover {
-    background-color: rgb(112, 34, 185);
+    background-color: rgb(63, 130, 60);
 }
 
 p {

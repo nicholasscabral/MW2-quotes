@@ -7,6 +7,11 @@ let quotes = [
     "If we don't end war, war will end us. — H. G. Wells",
     "War does not determine who is right, only who is left. — Bertrand Russell",
     "If your attack is going too well, you're walking into an ambush. — Infantry Journal",
+    "There's no honorable way to kill, no gentle way to destroy. There is nothing good in war. Except its ending. — Abraham Lincoln",
+    "Death is nothing, but to live defeated and inglorious is to die daily. — Napoleon Bonaparte",
+    "I know not with what weapons World War III will be fought, but World War IV will be fought with sticks and stones. — Albert Einstein",
+    "A leader leads by example, not by force. — Sun Tzu",
+    "An eye for an eye makes the whole world blind. — Gandhi"
 ]
 
 const button = document.querySelector('.button')
@@ -20,6 +25,6 @@ function displayQuote() {
         <p>${quotes[index]}</p>
         </div>
         `
-
+        console.log(index)
     div.innerHTML = quote
 }

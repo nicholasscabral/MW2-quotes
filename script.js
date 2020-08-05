@@ -19,12 +19,11 @@ button.addEventListener('click', displayQuote)
 
 function displayQuote() {
 
-    var index = Math.round(Math.random() * quotes.length)
+    var index = Math.floor(Math.random() * quotes.length)
     let div = document.querySelector('#quote')
     let quote = `<div class="card"> 
         <p>${quotes[index]}</p>
         </div>
         `
-        console.log(index)
     div.innerHTML = quote
 }
